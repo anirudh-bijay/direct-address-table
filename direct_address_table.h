@@ -203,7 +203,7 @@ namespace dat
                     /// assignment.
                     occupied.resize(key + 1, false);
                     occupied[key] = true;
-
+                    ++nmemb;
                     return {make_iterator(key), true};
                 }
 
@@ -230,7 +230,7 @@ namespace dat
 
                     occupied.resize(key + 1, false);
                     occupied[key] = true;
-
+                    ++nmemb;
                     return {make_iterator(key), true};
                 }
 
