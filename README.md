@@ -1,6 +1,6 @@
 # direct-address-table
 
-Header-only C++ implementation of a direct-address table as described in *Introduction to Algorithms, Third Edition (3rd. ed.)*. The interface is similar to that of `std::unordered_map` as specified in the C++17 Standard, with a few exceptions:
+Header-only C++ implementation of a direct-address table as described in *Introduction to Algorithms, Third Edition (2009)*. The interface is similar to that of `std::unordered_map` as specified in the C++17 Standard, with a few exceptions:
 
 - The elements of the container *are* ordered.
 - There are no node-level operations (`extract`, `merge`, certain overloads of `insert`, etc.).
